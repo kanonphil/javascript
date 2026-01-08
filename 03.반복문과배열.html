@@ -50,6 +50,14 @@
     }
     console.log('짝수의 합: ' + sum);
 
+    let result = arr4.filter((value) => value % 2 == 0).reduce((acc, cur) => acc + cur, 0);
+    console.log('짝수의 합: ' + result);
+
+    const min = arr4.reduce((min, num) => (min < num ? min : num), arr4[0]);
+    console.log(min);
+
+    const max = arr4.reduce((max, num) => (max > num ? max : num), arr4[0]);
+    console.log(max);
   </script>
 </body>
 </html>
