@@ -35,7 +35,7 @@ console.log(studentList[1].name);
 //studentList에 저장된 모든 학생의 점수 총합을 출력
 //for
 let sum = 0;
-for (let i; i < studentList.length; i++) {
+for (let i = 0; i < studentList.length; i++) {
   sum += studentList[i].score;
 }
 console.log(sum);
