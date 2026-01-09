@@ -28,3 +28,25 @@ const intro3 = () => {
   console.log("반가워");
   console.log("또 만나");
 }
+
+function printNum1(num) {
+  console.log(num);
+}
+
+//함수 표현식
+const printNum2 = function(num) {
+  console.log(num);
+}
+
+//화살표 함수
+const printNum3 = num => console.log(num);
+
+function printSum1(num1, num2) {
+  console.log(num1 + num2);
+}
+
+const printSum2 = function(num1, num2) {
+  console.log(num1 + num2);
+}
+
+const printSum3 = (num1, num2) => console.log(num1 + num2);
