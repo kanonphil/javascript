@@ -50,3 +50,16 @@ const printSum2 = function(num1, num2) {
 }
 
 const printSum3 = (num1, num2) => console.log(num1 + num2);
+
+function getDouble(num) {
+  return num * 2;
+}
+getDouble(2);
+
+const getDouble2 = function(num) {
+  return num * 2;
+}
+getDouble2(2);
+
+const getDouble3 = num => num * 2;
+getDouble3(2);
